@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <style>
+      .red h1 {
+        border: 1px solid red;
+      }
+
+      /* all h1s DIRECTLY under the class "red" will have these styles whether or not it's directly under */
+
+      /* If there are conflicting attributes, which one gets taken?
+      
+      1. the more specific one, ex. .red is more specific than just h1
+      
+      2. the one closer to the bottom of the file
+      */
+    </style>
+  </head>
+  <body>
+    <div class="red">
+      <h1>hello</h1>
+      <h1>hello</h1>
+      <h1>hello</h1>
+      <h1>hello</h1>
+      <h1>hello</h1>
+      <h1>hello</h1>
+    </div>
+  </body>
+</html>

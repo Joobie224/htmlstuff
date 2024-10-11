@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <!-- only put anything that doesn't directly appear on the screen. You can start writing CSS in the style tag -->
+
+    <!-- this line put the included styles on everything:
+         * {
+          border: 2px solid purple;
+         } 
+    -->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Border:
+            it doesn't matter what order it goes in 
+            It just matteres that you ahve all 3 of these attributes in it:
+            - size (in px or rem or whatever)
+            - solid / dashed / dotted
+            - color
+    -->
+
+    <!-- If you have a css in the style, it takes up a lot of space in your html, so here's how you import css into your html file. 
+         1. create new file under the HTML file called "style.css"
+         2. create your css code within that file
+         3. remove entire style tag from HTML file
+         4. then create this:
+            <link rel="stylesheet" href="style.css" />
+     -->
+  </head>
+  <body>
+    <h1>Jun Lee (pronounced like the month of June)</h1>
+    <h3>Who am I?</h3>
+    <p>Just a 24-year-old trying to make his way in a shitty job market.</p>
+    <h4>What do I enjoy doing?</h4>
+    <ul>
+      <div class="center">
+        <li>Watching anime</li>
+        <img
+          width="100"
+          src="https://upload.wikimedia.org/wikipedia/en/a/a5/Angel_Beats%21_DVD_Complete_Collection_cover.jpg"
+        />
+      </div>
+      <div class="center">
+        <li class="red">Playing League of Legends</li>
+        <img
+          width="100"
+          src="https://liquipedia.net/commons/images/f/ff/League_Infobox_Akali.jpg"
+        />
+      </div>
+      <div class="center">
+        <li>Eating takoyaki</li>
+        <img
+          width="100"
+          src="https://cdn.media.amplience.net/i/japancentre/Recipe-22-takoyaki-octopus-balls/Takoyaki-octopus-balls?$poi$&w=1200&h=630&sm=c&fmt=auto"
+        />
+      </div>
+    </ul>
+    <h3>What do I hope to gain from this bootcamp?</h3>
+    <p>
+      I wanted to take this opportunity to make a hard pivot from my current
+      career to a new one in tech, which has always been my fascination and
+      interest.
+    </p>
+    <p>
+      I used to be a journalist, if you would like to ready some of my previous
+      published articles, click <a href="https://rampages.us/junlee/">here</a>
+    </p>
+  </body>
+</html>

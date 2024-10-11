@@ -1,0 +1,49 @@
+/* These styles only apply to the h1 right now if I want to apply it to another selector as well, let's just say h3, I can combine it by adding it with a comma */
+
+h1,
+h3 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-color: beige;
+    margin: 0;
+}
+h4 {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+li {
+    text-align: center;
+}
+.center {
+    text-align: center;
+    border: solid bisque;
+    margin-bottom: 4rem;
+}
+
+/* when you hover over a CSS selector, it would apply certain styles to it */
+
+h1:hover {
+    color: red;
+    transition: 0.3s;
+}
+
+/* 
+Windows:
+highlight a couple of lines of code and then alt + down/up arrow to move the highlighted line of code up or down
+
+to go to the beginning of a word: ctrl + left/right arrow
+
+to highlight code: shift + left/right arrow
+
+ctrl + enter: create a new line of code right below yours, no matter what you're currently selecting
+
+alt + left/right arrow: flips between code pages
+ */
